@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         task1();
     }
+
     public static void task1() {
         System.out.println("Задача 1 - 2");
         int[] arr = new int[3];
@@ -15,9 +16,9 @@ public class Main {
         for (int i = 0; i < arr.length; i++) {
             if (i == arr.length - 1) {
                 System.out.println(arr[i]);
-            } else {
-                System.out.print(arr[i] + ", ");
+                break;
             }
+            System.out.print(arr[i] + ", ");
         }
         for (int j = 0; j < arr1.length; j++) {
             if (j == arr1.length - 1) {
