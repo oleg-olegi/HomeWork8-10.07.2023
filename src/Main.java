@@ -16,9 +16,9 @@ public class Main {
         for (int i = 0; i < arr.length; i++) {
             if (i == arr.length - 1) {
                 System.out.println(arr[i]);
-                break;
+            } else {
+                System.out.print(arr[i] + ", ");
             }
-            System.out.print(arr[i] + ", ");
         }
         for (int j = 0; j < arr1.length; j++) {
             if (j == arr1.length - 1) {
